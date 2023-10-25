@@ -1,0 +1,8 @@
+Big O Analysis: 
+
+insert(val): Worst-case O(n) - when the value to insert is the largest or smallest, as we might have to traverse the entire list.
+pop_front(): O(1) - constant time operation as we are removing the front node.
+pop_back(): O(n) - since we need to traverse to the second last node.
+front(), back(), empty(), size(): O(1) - constant time operations.
+reverse(): O(n) - traversing the list once.
+merge(aList): O(n * m) - if n is the size of the primary list and m is the size of aList.
